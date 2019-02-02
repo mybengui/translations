@@ -4286,7 +4286,7 @@ msgstr "Bloquear Ordens Confirmadas"
 #. module: flexibite_com_advance
 #: model:ir.model.fields,field_description:flexibite_com_advance.field_loyalty_config_settings__auto_done_setting
 msgid "Lock Confirmed Sales"
-msgstr "Bloquear Vendas Confirmadas"
+msgstr "Bloquear"
 
 #. module: flexibite_com_advance
 #. openerp-web
@@ -4294,12 +4294,12 @@ msgstr "Bloquear Vendas Confirmadas"
 #: model:ir.model.fields,field_description:flexibite_com_advance.field_pos_session__is_lock_screen
 #, python-format
 msgid "Lock Screen"
-msgstr "Bloquear Ençã"
+msgstr ""
 
 #. module: flexibite_com_advance
 #: model:ir.model.fields,field_description:flexibite_com_advance.field_lock_data__lock_status
 msgid "Lock State"
-msgstr "Estado de Bloqueio"
+msgstr ""
 
 #. module: flexibite_com_advance
 #. openerp-web
@@ -4308,12 +4308,12 @@ msgstr "Estado de Bloqueio"
 #: model:ir.model.fields,field_description:flexibite_com_advance.field_res_users__lock_terminal
 #, python-format
 msgid "Lock Terminals"
-msgstr "Bloquear Terminais"
+msgstr ""
 
 #. module: flexibite_com_advance
 #: model:ir.model.fields,field_description:flexibite_com_advance.field_pos_session__locked
 msgid "Locked"
-msgstr "Bloqueado"
+msgstr ""
 
 #. module: flexibite_com_advance
 #. openerp-web
@@ -4321,41 +4321,41 @@ msgstr "Bloqueado"
 #: model:ir.model.fields,field_description:flexibite_com_advance.field_pos_session__locked_by_user_id
 #, python-format
 msgid "Locked By"
-msgstr "Bloqueado Por"
+msgstr ""
 
 #. module: flexibite_com_advance
 #: model:ir.model.fields,field_description:flexibite_com_advance.field_lock_data__locked_by_user_id
 msgid "Locked By User"
-msgstr "Bloqueado por Usuário"
+msgstr ""
 
 #. module: flexibite_com_advance
 #: model:ir.model.fields,field_description:flexibite_com_advance.field_lock_data__locked_user_id
 msgid "Locked User"
-msgstr "Usuário Bloqueado"
+msgstr ""
 
 #. module: flexibite_com_advance
 #: model:ir.model.fields,field_description:flexibite_com_advance.field_pos_config__login_screen
 msgid "Login Screen"
-msgstr "Ecrã de Login"
+msgstr ""
 
 #. module: flexibite_com_advance
 #: model:ir.model.fields,field_description:flexibite_com_advance.field_res_users__login_with_pos_screen
 msgid "Login with Direct POS"
-msgstr "Login Directo no POS"
+msgstr ""
 
 #. module: flexibite_com_advance
 #. openerp-web
 #: code:addons/flexibite_com_advance/static/src/xml/receipt.xml:206
 #, python-format
 msgid "Logo"
-msgstr "Logotipo"
+msgstr ""
 
 #. module: flexibite_com_advance
 #. openerp-web
 #: code:addons/flexibite_com_advance/static/src/xml/popup.xml:1229
 #, python-format
 msgid "Logout"
-msgstr "Sair"
+msgstr ""
 
 #. module: flexibite_com_advance
 #: model:ir.model.fields,field_description:flexibite_com_advance.field_loyalty_config_settings__group_stock_production_lot
@@ -4366,7 +4366,7 @@ msgstr "Lotes & Números de Série"
 #: selection:pos.order.line,priority:0
 #: selection:product.template,priority:0
 msgid "Low"
-msgstr "Baixo"
+msgstr ""
 
 #. module: flexibite_com_advance
 #: selection:account.journal,jr_use_for:0
@@ -4377,14 +4377,14 @@ msgstr "Baixo"
 #: model_terms:ir.ui.view,arch_db:flexibite_com_advance.view_loyalty_config_settings_form_pos
 #: model_terms:ir.ui.view,arch_db:flexibite_com_advance.view_partner_form_aspl
 msgid "Loyalty"
-msgstr "Fidelidade"
+msgstr ""
 
 #. module: flexibite_com_advance
 #. openerp-web
 #: code:addons/flexibite_com_advance/static/src/js/popup.js:1067
 #, python-format
 msgid "Loyalty Amount exceeding Due Amount."
-msgstr "Valor de Fidelidade excede o Valor Devido"
+msgstr ""
 
 #. module: flexibite_com_advance
 #: model:ir.model.fields,field_description:flexibite_com_advance.field_pos_config__loyalty_journal_id
@@ -4397,7 +4397,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:flexibite_com_advance.field_product_product__loyalty_point
 #: model:ir.model.fields,field_description:flexibite_com_advance.field_product_template__loyalty_point
 msgid "Loyalty Point"
-msgstr "Pontos de Fidelidade"
+msgstr ""
 
 #. module: flexibite_com_advance
 #. openerp-web
@@ -4409,7 +4409,7 @@ msgstr "Pontos de Fidelidade"
 #: model_terms:ir.ui.view,arch_db:flexibite_com_advance.loyalty_point_tree_view
 #, python-format
 msgid "Loyalty Points"
-msgstr "Pontos de Fidelidade"
+msgstr ""
 
 #. module: flexibite_com_advance
 #: model:ir.model.fields,field_description:flexibite_com_advance.field_res_partner__loyalty_points_earned
@@ -4420,29 +4420,29 @@ msgstr ""
 #. module: flexibite_com_advance
 #: model:ir.actions.act_window,name:flexibite_com_advance.action_aspl_loyalty_point_redeem
 msgid "Loyalty Points Redeem"
-msgstr "Resgatar Pontos de Fidelidade"
+msgstr ""
 
 #. module: flexibite_com_advance
 #. openerp-web
 #: code:addons/flexibite_com_advance/static/src/xml/product.xml:897
 #, python-format
 msgid "Loyalty Points:"
-msgstr "Pontos de Fidelidade:"
+msgstr ""
 
 #. module: flexibite_com_advance
 #: model:ir.model.fields,help:flexibite_com_advance.field_loyalty_config_settings__points_based_on
 msgid "Loyalty points calculation can be based on products or order"
-msgstr "O cálculo dos pontos de fidelidade pode ser baseado em produtos ou pedidos"
+msgstr ""
 
 #. module: flexibite_com_advance
 #: model:ir.model.fields,field_description:flexibite_com_advance.field_pos_order_line__mo_id
 msgid "MO"
-msgstr "MO"
+msgstr ""
 
 #. module: flexibite_com_advance
 #: model:ir.model.fields,field_description:flexibite_com_advance.field_loyalty_config_settings__group_mrp_routings
 msgid "MRP Work Orders"
-msgstr "Ordens de Trabalho MRP"
+msgstr ""
 
 #. module: flexibite_com_advance
 #: model:ir.model.fields,help:flexibite_com_advance.field_loyalty_config_settings__currency_id
@@ -4457,7 +4457,7 @@ msgstr "Gerir Inter Empresa"
 #. module: flexibite_com_advance
 #: model_terms:ir.ui.view,arch_db:flexibite_com_advance.aspl_pos_config_view_form
 msgid "Manage Return Validity"
-msgstr "Gerir Validade de Retorno"
+msgstr ""
 
 #. module: flexibite_com_advance
 #: model:ir.model.fields,field_description:flexibite_com_advance.field_loyalty_config_settings__group_multi_company
@@ -4467,14 +4467,14 @@ msgstr "Gerir múltiplas empresas"
 #. module: flexibite_com_advance
 #: selection:res.users,kitchen_screen_user:0
 msgid "Manager"
-msgstr "Gestor"
+msgstr ""
 
 #. module: flexibite_com_advance
 #: model:ir.model.fields,field_description:flexibite_com_advance.field_pos_config__authentication_user_ids
 #: model:ir.model.fields,field_description:flexibite_com_advance.field_pos_config__return_authentication_user_ids
 #: model_terms:ir.ui.view,arch_db:flexibite_com_advance.aspl_pos_config_view_form
 msgid "Manager Approval"
-msgstr "Aprovação do Gestor"
+msgstr ""
 
 #. module: flexibite_com_advance
 #: model:ir.model.fields,field_description:flexibite_com_advance.field_pos_config__enable_manual_lock
@@ -4484,22 +4484,22 @@ msgstr ""
 #. module: flexibite_com_advance
 #: model:ir.model.fields,field_description:flexibite_com_advance.field_pos_config__manual_card_number
 msgid "Manual Card No."
-msgstr "Cartão Manual Nº"
+msgstr ""
 
 #. module: flexibite_com_advance
 #: model_terms:ir.ui.view,arch_db:flexibite_com_advance.aspl_pos_config_view_form
 msgid "Manual Card Number"
-msgstr "Número de Cartão Manual"
+msgstr ""
 
 #. module: flexibite_com_advance
 #: model_terms:ir.ui.view,arch_db:flexibite_com_advance.aspl_pos_config_view_form
 msgid "Manual Lock"
-msgstr "Bloquei Manual"
+msgstr ""
 
 #. module: flexibite_com_advance
 #: selection:loyalty.config.settings,module_procurement_jit:0
 msgid "Manually or based on automatic scheduler"
-msgstr "Manualmente ou com base no agendador automático"
+msgstr ""
 
 #. module: flexibite_com_advance
 #: model:ir.model.fields,field_description:flexibite_com_advance.field_loyalty_config_settings__manufacturing_lead
@@ -4511,19 +4511,19 @@ msgstr "Prazo de Entrega da Produção"
 #: code:addons/flexibite_com_advance/static/src/xml/client.xml:216
 #, python-format
 msgid "Map Could not load"
-msgstr "Não foi possível carregar o mapa"
+msgstr ""
 
 #. module: flexibite_com_advance
 #. openerp-web
 #: code:addons/flexibite_com_advance/static/src/xml/backend_dashboard.xml:366
 #, python-format
 msgid "March"
-msgstr "Março"
+msgstr ""
 
 #. module: flexibite_com_advance
 #: model:ir.model.fields,help:flexibite_com_advance.field_loyalty_config_settings__use_security_lead
 msgid "Margin of error for dates promised to customers. Products will be scheduled for delivery that many days earlier than the actual promised date, to cope with unexpected delays in the supply chain."
-msgstr "Margem de erro para datas prometidas aos clientes. Os produtos serão agendados para entrega que muitos dias antes da data prometida, para lidar com atrasos inesperados na cadeia de fornecimento."
+msgstr ""
 
 #. module: flexibite_com_advance
 #: model:ir.model.fields,help:flexibite_com_advance.field_loyalty_config_settings__security_lead
@@ -4538,7 +4538,7 @@ msgstr "A margem de erro para os tempos de entrega de fornecedor. Quando o siste
 #. module: flexibite_com_advance
 #: model:ir.model.fields,help:flexibite_com_advance.field_loyalty_config_settings__use_po_lead
 msgid "Margin of error for vendor lead times. When the system generates Purchase Orders for reordering products,they will be scheduled that many days earlier to cope with unexpected vendor delays."
-msgstr "Margem de erro para lead times do fornecedor. Quando o sistema gera Pedidos de compra para reordenar produtos, eles serão programados com vários dias de antecedência para lidar com atrasos inesperados do fornecedor."
+msgstr ""
 
 #. module: flexibite_com_advance
 #: model:ir.model.fields,field_description:flexibite_com_advance.field_loyalty_config_settings__module_sale_margin
@@ -4550,38 +4550,38 @@ msgstr "Margens"
 #: code:addons/flexibite_com_advance/static/src/xml/popup.xml:2164
 #, python-format
 msgid "Mark as Todo"
-msgstr "Marcar como por Fazer"
+msgstr ""
 
 #. module: flexibite_com_advance
 #: model:ir.model.fields,field_description:flexibite_com_advance.field_loyalty_config_settings__module_mrp_mps
 msgid "Master Production Schedule"
-msgstr "Programação Mestre de Produção"
+msgstr ""
 
 #. module: flexibite_com_advance
 #. openerp-web
 #: code:addons/flexibite_com_advance/static/src/xml/popup.xml:1405
 #, python-format
 msgid "Max Debit Exceeded"
-msgstr "Débito Máximo Excedido"
+msgstr ""
 
 #. module: flexibite_com_advance
 #. openerp-web
 #: code:addons/flexibite_com_advance/static/src/xml/backend_dashboard.xml:368
 #, python-format
 msgid "May"
-msgstr "Maio"
+msgstr ""
 
 #. module: flexibite_com_advance
 #: selection:pos.order.line,priority:0
 #: selection:product.template,priority:0
 msgid "Medium"
-msgstr "Médio"
+msgstr ""
 
 #. module: flexibite_com_advance
 #: model:ir.model.fields,field_description:flexibite_com_advance.field_loyalty_point__partner_id
 #: model:ir.model.fields,field_description:flexibite_com_advance.field_loyalty_point_redeem__partner_id
 msgid "Member"
-msgstr "Membro"
+msgstr ""
 
 #. module: flexibite_com_advance
 #. openerp-web
@@ -4591,14 +4591,14 @@ msgstr "Membro"
 #: model_terms:ir.ui.view,arch_db:flexibite_com_advance.aspl_pos_config_view_form
 #, python-format
 msgid "Merge Table"
-msgstr "Juntar Mesa"
+msgstr ""
 
 #. module: flexibite_com_advance
 #. openerp-web
 #: code:addons/flexibite_com_advance/static/src/xml/popup.xml:1424
 #, python-format
 msgid "Merge Table with"
-msgstr "Juntar Mesa Com"
+msgstr ""
 
 #. module: flexibite_com_advance
 #. openerp-web
@@ -4612,46 +4612,46 @@ msgstr "Mensagem"
 #. module: flexibite_com_advance
 #: model:ir.model.fields,field_description:flexibite_com_advance.field_message_terminal__sender_user
 msgid "Message By User"
-msgstr "Mensagem por usuário"
+msgstr ""
 
 #. module: flexibite_com_advance
 #: model:ir.model.fields,field_description:flexibite_com_advance.field_message_terminal__receiver_user
 msgid "Message To"
-msgstr "Mensagem para"
+msgstr ""
 
 #. module: flexibite_com_advance
 #: model:ir.model.fields,field_description:flexibite_com_advance.field_message_terminal__message_session_id
 msgid "Message To Session"
-msgstr "Mensagem para Sessão"
+msgstr ""
 
 #. module: flexibite_com_advance
 #. openerp-web
 #: code:addons/flexibite_com_advance/static/src/xml/product.xml:30
 #, python-format
 msgid "Messages"
-msgstr "Mensagens"
+msgstr ""
 
 #. module: flexibite_com_advance
 #. openerp-web
 #: code:addons/flexibite_com_advance/static/src/xml/payment.xml:394
 #, python-format
 msgid "Method"
-msgstr "Método"
+msgstr ""
 
 #. module: flexibite_com_advance
 #: model:ir.model.fields,field_description:flexibite_com_advance.field_account_journal__jr_use_for
 msgid "Method Use For"
-msgstr "Uso de Método Para"
+msgstr ""
 
 #. module: flexibite_com_advance
 #: model:ir.model.fields,field_description:flexibite_com_advance.field_loyalty_config_settings__po_double_validation_amount
 msgid "Minimum Amount"
-msgstr "Valor Mínimo"
+msgstr ""
 
 #. module: flexibite_com_advance
 #: model:ir.model.fields,field_description:flexibite_com_advance.field_loyalty_config_settings__propagation_minimum_delta
 msgid "Minimum Delta for Propagation"
-msgstr "Delta Mínimo para Propagação"
+msgstr ""
 
 #. module: flexibite_com_advance
 #. openerp-web
@@ -4660,7 +4660,7 @@ msgstr "Delta Mínimo para Propagação"
 #: model:ir.model.fields,field_description:flexibite_com_advance.field_loyalty_config_settings__minimum_purchase
 #, python-format
 msgid "Minimum Purchase"
-msgstr "Mínimo de Compra"
+msgstr ""
 
 #. module: flexibite_com_advance
 #: model:ir.model.fields,help:flexibite_com_advance.field_loyalty_config_settings__po_double_validation_amount
@@ -4671,33 +4671,33 @@ msgstr "Valor a partir do qual é necessário validar a compra duplamente."
 #: code:addons/flexibite_com_advance/models/voucher.py:27
 #, python-format
 msgid "Minimum purchase should not be less then 0 amount"
-msgstr "A compra mínima não deve ser inferior a 0"
+msgstr ""
 
 #. module: flexibite_com_advance
 #. openerp-web
 #: code:addons/flexibite_com_advance/static/src/xml/customer_display.xml:183
 #, python-format
 msgid "Mobile:"
-msgstr "Móvel"
+msgstr ""
 
 #. module: flexibite_com_advance
 #: model:ir.model.fields,field_description:flexibite_com_advance.field_modifier_order_line__modifier_id
 #: model:ir.model.fields,field_description:flexibite_com_advance.field_pos_order_line__modifier
 #: model_terms:ir.ui.view,arch_db:flexibite_com_advance.package_product_template_only_form_view
 msgid "Modifier"
-msgstr "Modificador"
+msgstr ""
 
 #. module: flexibite_com_advance
 #: model:ir.model.fields,field_description:flexibite_com_advance.field_product_product__modifier_line
 #: model:ir.model.fields,field_description:flexibite_com_advance.field_product_template__modifier_line
 msgid "Modifier Line"
-msgstr "Modificador de Linha"
+msgstr ""
 
 #. module: flexibite_com_advance
 #: model:ir.model.fields,field_description:flexibite_com_advance.field_modifier_order_line__product_id
 #: model:ir.model.fields,field_description:flexibite_com_advance.field_product_modifier__product_id
 msgid "Modifier Name"
-msgstr "Modificador de Nome"
+msgstr ""
 
 #. module: flexibite_com_advance
 #. openerp-web
@@ -4709,32 +4709,32 @@ msgstr "Modificador de Nome"
 #: model_terms:ir.ui.view,arch_db:flexibite_com_advance.aspl_pos_config_view_form
 #, python-format
 msgid "Modifiers"
-msgstr "Modeificadores"
+msgstr ""
 
 #. module: flexibite_com_advance
 #. openerp-web
 #: code:addons/flexibite_com_advance/static/src/xml/product.xml:216
 #, python-format
 msgid "Money In"
-msgstr "Entrada de Dinheiro"
+msgstr ""
 
 #. module: flexibite_com_advance
 #: model:ir.model.fields,field_description:flexibite_com_advance.field_pos_config__money_in_out
 #: model:ir.model.fields,field_description:flexibite_com_advance.field_res_users__access_money_in_out
 msgid "Money In/Out"
-msgstr "Entrada/Saída de Dinheiro"
+msgstr ""
 
 #. module: flexibite_com_advance
 #: model:ir.model.fields,field_description:flexibite_com_advance.field_pos_config__money_in_out_receipt
 msgid "Money In/Out Receipt"
-msgstr "Recibo de Entrada/Saída de Dinheiro"
+msgstr ""
 
 #. module: flexibite_com_advance
 #. openerp-web
 #: code:addons/flexibite_com_advance/static/src/xml/product.xml:220
 #, python-format
 msgid "Money Out"
-msgstr "Saída de Dinheiro"
+msgstr ""
 
 #. module: flexibite_com_advance
 #. openerp-web
@@ -4744,27 +4744,27 @@ msgstr "Saída de Dinheiro"
 #: code:addons/flexibite_com_advance/static/src/xml/receipt.xml:1527
 #, python-format
 msgid "Month :"
-msgstr "Mês :"
+msgstr ""
 
 #. module: flexibite_com_advance
 #: model:ir.model.fields,field_description:flexibite_com_advance.field_discount_multi_categories__multi_categ_dis_rel
 msgid "Multi Categ Dis Rel"
-msgstr "Desc. Várias Catg."
+msgstr ""
 
 #. module: flexibite_com_advance
 #: model:ir.model.fields,field_description:flexibite_com_advance.field_pos_promotion__multi_categ_discount_ids
 msgid "Multi Categ Discount"
-msgstr "Desc. Várias Catg."
+msgstr ""
 
 #. module: flexibite_com_advance
 #: model:ir.model.fields,field_description:flexibite_com_advance.field_discount_multi_products__multi_product_dis_rel
 msgid "Multi Product Dis Rel"
-msgstr "Desc. Vários Prod."
+msgstr ""
 
 #. module: flexibite_com_advance
 #: model:ir.model.fields,field_description:flexibite_com_advance.field_pos_promotion__multi_products_discount_ids
 msgid "Multi Products Discount"
-msgstr "Desc. Vários Prod."
+msgstr ""
 
 #. module: flexibite_com_advance
 #: model:ir.model.fields,field_description:flexibite_com_advance.field_loyalty_config_settings__group_multi_currency
@@ -4784,12 +4784,12 @@ msgstr "Multi-armazém"
 #. module: flexibite_com_advance
 #: model:ir.model.fields,field_description:flexibite_com_advance.field_pos_order__picking_ids
 msgid "Multiple Picking"
-msgstr "Colheita Múltipla"
+msgstr ""
 
 #. module: flexibite_com_advance
 #: model:ir.model.fields,field_description:flexibite_com_advance.field_loyalty_config_settings__pos_sales_price
 msgid "Multiple Product Prices"
-msgstr "Preços Múltiplos de Produtos"
+msgstr ""
 
 #. module: flexibite_com_advance
 #: model:ir.model.fields,field_description:flexibite_com_advance.field_loyalty_config_settings__multi_sales_price
@@ -4801,7 +4801,7 @@ msgstr "Múltiplos Preços de Venda por Artigo"
 #: selection:loyalty.config.settings,pos_pricelist_setting:0
 #: selection:loyalty.config.settings,sale_pricelist_setting:0
 msgid "Multiple prices per product (e.g. customer segments, currencies)"
-msgstr "Vários preços por produto (por exemplo, segmentos de clientes, moedas)"
+msgstr ""
 
 #. module: flexibite_com_advance
 #. openerp-web
@@ -4829,7 +4829,7 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:flexibite_com_advance.report_item_table_order1
 #: model_terms:ir.ui.view,arch_db:flexibite_com_advance.report_table_order_receipt
 msgid "NOTE:"
-msgstr "NOTA:"
+msgstr ""
 
 #. module: flexibite_com_advance
 #. openerp-web
@@ -4858,14 +4858,14 @@ msgstr "Nome"
 #: code:addons/flexibite_com_advance/static/src/xml/customer_display.xml:181
 #, python-format
 msgid "Name:"
-msgstr "Nome"
+msgstr ""
 
 #. module: flexibite_com_advance
 #: model_terms:ir.ui.view,arch_db:flexibite_com_advance.pos_sales_report_pdf_template
 #: model_terms:ir.ui.view,arch_db:flexibite_com_advance.pos_sales_report_template
 #: model_terms:ir.ui.view,arch_db:flexibite_com_advance.pos_z_report_template
 msgid "Net Amount"
-msgstr "Valor Líquido"
+msgstr ""
 
 #. module: flexibite_com_advance
 #: model_terms:ir.ui.view,arch_db:flexibite_com_advance.front_sales_report_pdf_document
@@ -4874,14 +4874,14 @@ msgstr "Valor Líquido"
 #: model_terms:ir.ui.view,arch_db:flexibite_com_advance.sales_details_pdf_template
 #: model_terms:ir.ui.view,arch_db:flexibite_com_advance.sales_details_template
 msgid "Net Gross Profit"
-msgstr "Lucro Bruto Líquido"
+msgstr ""
 
 #. module: flexibite_com_advance
 #. openerp-web
 #: code:addons/flexibite_com_advance/static/src/xml/receipt.xml:774
 #, python-format
 msgid "Net Total:"
-msgstr "Total bruto"
+msgstr ""
 
 #. module: flexibite_com_advance
 #. openerp-web
@@ -4889,7 +4889,7 @@ msgstr "Total bruto"
 #: selection:pos.order.details,state:0
 #, python-format
 msgid "New"
-msgstr "Novo"
+msgstr ""
 
 #. module: flexibite_com_advance
 #. openerp-web
@@ -4897,40 +4897,40 @@ msgstr "Novo"
 #: model:ir.model.fields,field_description:flexibite_com_advance.field_aspl_gift_card_exchange_history__new_card_no
 #, python-format
 msgid "New Card No."
-msgstr "Novo Nº de Cartão"
+msgstr ""
 
 #. module: flexibite_com_advance
 #. openerp-web
 #: code:addons/flexibite_com_advance/static/src/xml/popup.xml:1015
 #, python-format
 msgid "New Expire Date"
-msgstr "Nova data de Validade"
+msgstr ""
 
 #. module: flexibite_com_advance
 #. openerp-web
 #: code:addons/flexibite_com_advance/static/src/xml/receipt.xml:9
 #, python-format
 msgid "Next Order"
-msgstr "Próxima Ordem"
+msgstr ""
 
 #. module: flexibite_com_advance
 #. openerp-web
 #: code:addons/flexibite_com_advance/static/src/xml/popup.xml:576
 #, python-format
 msgid "No"
-msgstr "Nº"
+msgstr ""
 
 #. module: flexibite_com_advance
 #. openerp-web
 #: code:addons/flexibite_com_advance/static/src/xml/backend_dashboard.xml:140
 #, python-format
 msgid "No Data Found"
-msgstr "Nenhum dado encontrado"
+msgstr ""
 
 #. module: flexibite_com_advance
 #: selection:pos.order,rating:0
 msgid "No Rating"
-msgstr "Sem avaliação"
+msgstr ""
 
 #. module: flexibite_com_advance
 #: model:ir.model.fields,field_description:flexibite_com_advance.field_loyalty_config_settings__use_propagation_minimum_delta
@@ -4941,45 +4941,45 @@ msgstr "Sem Propagação de Re-Agendamento"
 #: code:addons/flexibite_com_advance/models/point_of_sale.py:1004
 #, python-format
 msgid "No cash statement found for this session. Unable to record returned cash."
-msgstr "Nenhuma demonstração em dinheiro encontrada para esta sessão. Não é possível gravar o dinheiro devolvido."
+msgstr ""
 
 #. module: flexibite_com_advance
 #. openerp-web
 #: code:addons/flexibite_com_advance/static/src/js/popup.js:677
 #, python-format
 msgid "No item found"
-msgstr "Nenhum producto encontrado"
+msgstr ""
 
 #. module: flexibite_com_advance
 #. openerp-web
 #: code:addons/flexibite_com_advance/static/src/js/chrome.js:444
 #, python-format
 msgid "No order to print."
-msgstr "Nenhuma Ordem para imprimir."
+msgstr ""
 
 #. module: flexibite_com_advance
 #. openerp-web
 #: code:addons/flexibite_com_advance/static/src/js/popup.js:684
 #, python-format
 msgid "No result found"
-msgstr "Nenhum Resultado Encontrado"
+msgstr ""
 
 #. module: flexibite_com_advance
 #: code:addons/flexibite_com_advance/models/res_partner.py:193
 #, python-format
 msgid "No such active session found for this POS."
-msgstr "Nenhuma sessão ativa encontrada para este POS."
+msgstr ""
 
 #. module: flexibite_com_advance
 #: model:ir.model.fields,field_description:flexibite_com_advance.field_pos_config__order_summary_no_of_copies
 #: model_terms:ir.ui.view,arch_db:flexibite_com_advance.aspl_pos_config_view_form
 msgid "No. of Copy Receipt"
-msgstr "Nº de Copia do Recibo"
+msgstr ""
 
 #. module: flexibite_com_advance
 #: model:ir.model.fields,field_description:flexibite_com_advance.field_product_combo__no_of_items
 msgid "No. of Items"
-msgstr "Nº de Productos"
+msgstr ""
 
 #. module: flexibite_com_advance
 #. openerp-web
@@ -4987,18 +4987,18 @@ msgstr "Nº de Productos"
 #: code:addons/flexibite_com_advance/static/src/xml/popup.xml:1716
 #, python-format
 msgid "No.of Copies"
-msgstr "Nº de Copias"
+msgstr ""
 
 #. module: flexibite_com_advance
 #: model:ir.model.fields,field_description:flexibite_com_advance.field_pos_config__no_of_copy_receipt
 msgid "No.of Copy Receipt"
-msgstr "Nº de Copia do Recibo"
+msgstr ""
 
 #. module: flexibite_com_advance
 #: model:ir.model.fields,field_description:flexibite_com_advance.field_product_product__non_refundable
 #: model:ir.model.fields,field_description:flexibite_com_advance.field_product_template__non_refundable
 msgid "Non Refundable"
-msgstr "Sem Devolução"
+msgstr ""
 
 #. module: flexibite_com_advance
 #. openerp-web
@@ -5011,7 +5011,7 @@ msgstr "Sem Devolução"
 #: selection:pos.order,delivery_type:0
 #, python-format
 msgid "None"
-msgstr "Nenhum"
+msgstr ""
 
 #. module: flexibite_com_advance
 #: selection:pos.order,rating:0
