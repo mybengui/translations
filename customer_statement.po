@@ -38,7 +38,27 @@ msgid "\n"
 "\n"
 "</div>\n"
 "            "
-msgstr ""
+msgstr "\n"
+"<div style=\"font-family: 'Lucica Grande', Ubuntu, Arial, Verdana, sans-serif; font-size: 12px; color: rgb(34, 34, 34); background-color: rgb(255, 255, 255); \">\n"
+"\n"
+"    <p>Prezado ${object.name},</p>\n"
+"    <p>\n"
+"    Anexamos seu extrato de pagamento.\n"
+"    Por favor, verifique.\n"
+"\n"
+"    </p>\n"
+"<br/>\n"
+"Cumprimentos,\n"
+"<br/>\n"
+"   <br/>\n"
+"${user.name}\n"
+"\n"
+"<br/>\n"
+"<br/>\n"
+"\n"
+"\n"
+"</div>\n"
+"            "
 
 #. module: account_statement
 #: model:mail.template,body_html:account_statement.email_template_customer_monthly_statement
@@ -67,22 +87,45 @@ msgid "\n"
 "\n"
 "</div>\n"
 "            "
-msgstr ""
+msgstr "\n"
+"<div style=\"font-family: 'Lucica Grande', Ubuntu, Arial, Verdana, sans-serif; font-size: 12px; color: rgb(34, 34, 34); background-color: rgb(255, 255, 255); \">\n"
+"\n"
+"    <p>Prezado ${object.name},</p>\n"
+"    <p>\n"
+"    Anexamos seu extrato de pagamento.\n"
+"    Por favor, verifique.\n"
+"\n"
+"    </p>\n"
+"<br/>\n"
+"Cumprimentos,\n"
+"<br/>\n"
+"   <br/>\n"
+"${user.name}\n"
+"\n"
+"<br/>\n"
+"<br/>\n"
+"\n"
+"\n"
+"\n"
+"    <br/>\n"
+"\n"
+"</div>\n"
+"            "
 
 #. module: account_statement
 #: model:mail.template,subject:account_statement.email_template_customer_monthly_statement
 msgid "${user.company_id.name} Customer Monthly Statement"
-msgstr ""
+msgstr "${user.company_id.name} Extrato Mesal de Cliente"
 
 #. module: account_statement
 #: model:mail.template,subject:account_statement.email_template_customer_statement
 msgid "${user.company_id.name} Customer Statement"
-msgstr ""
+msgstr "${user.company_id.name} Extrato de Cliente"
 
 #. module: account_statement
 #: model:mail.template,subject:account_statement.email_template_supplier_statement
 msgid "${user.company_id.name} Supplier Statement"
-msgstr ""
+msgstr "${user.company_id.name} Extrato de Fornecedor"
 
 #. module: account_statement
 #: model:ir.model.fields,field_description:account_statement.field_res_partner__first_thirty_day
@@ -116,13 +159,13 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:account_statement.report_customer_statement
 #: model_terms:ir.ui.view,arch_db:account_statement.report_supplier_statement
 msgid "<b>Ending Balance</b>"
-msgstr ""
+msgstr "<b>Saldo Fina </b>"
 
 #. module: account_statement
 #: model_terms:ir.ui.view,arch_db:account_statement.report_customer_statement
 #: model_terms:ir.ui.view,arch_db:account_statement.report_supplier_statement
 msgid "<b>Initial Balance</b>"
-msgstr ""
+msgstr "<b>Saldo Inicial</b>"
 
 #. module: account_statement
 #: model_terms:ir.ui.view,arch_db:account_statement.bi_report_overdue_report
@@ -134,25 +177,33 @@ msgid "<br/>\n"
 "							<br/>\n"
 "							<span>Thank you.</span><br/>\n"
 "							<span>Best Regards,</span><br/>"
-msgstr ""
+msgstr ""<br/>\n"
+"							<br/>\n"
+"							<span>Caro Sr/Sra,</span><br/>\n"
+"							<br/>\n"
+"							<span>Alguns pagamentos em sua conta ainda são devidos. Por favor, encontrar detalhes abaixo.</span><br/>\n"
+"							<br/>\n"
+"							<span>Obrigado.</span><br/>\n"
+"							<span>Cumprimentos,</span><br/>""
 
 #. module: account_statement
 #: model_terms:ir.ui.view,arch_db:account_statement.bi_report_overdue_report
 msgid "<span>Customer account statement</span><br/>\n"
 "							<span>Date : </span>"
-msgstr ""
+msgstr "<span>Extrato da conta do cliente</span><br/>\n"
+"							<span>Data : </span>"
 
 #. module: account_statement
 #: model_terms:ir.ui.view,arch_db:account_statement.bi_report_overdue_report
 msgid "<strong>Balance :</strong>"
-msgstr ""
+msgstr "<strong>Saldo :</strong>"
 
 #. module: account_statement
 #: model_terms:ir.ui.view,arch_db:account_statement.report_customer_monthly_statement
 #: model_terms:ir.ui.view,arch_db:account_statement.report_customer_statement
 #: model_terms:ir.ui.view,arch_db:account_statement.report_supplier_statement
 msgid "<strong>Balance Due :</strong>"
-msgstr ""
+msgstr "<strongSaldo Devedor :</strong>"
 
 #. module: account_statement
 #: model_terms:ir.ui.view,arch_db:account_statement.bi_report_overdue_report
@@ -164,7 +215,7 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:account_statement.report_customer_statement
 #: model_terms:ir.ui.view,arch_db:account_statement.report_supplier_statement
 msgid "<strong>Total Amount OverDue :</strong>"
-msgstr ""
+msgstr "<strong>Ttal em Dívida :</strong>"
 
 #. module: account_statement
 #: model_terms:ir.ui.view,arch_db:account_statement.report_customer_statement
@@ -175,14 +226,14 @@ msgstr "Conta"
 #. module: account_statement
 #: selection:res.company,period:0
 msgid "All"
-msgstr ""
+msgstr "Tudo"
 
 #. module: account_statement
 #: model:ir.actions.server,name:account_statement.autometic_send_statement_cron_ir_actions_server
 #: model:ir.cron,cron_name:account_statement.autometic_send_statement_cron
 #: model:ir.cron,name:account_statement.autometic_send_statement_cron
 msgid "Automatic Send Customer Statement"
-msgstr ""
+msgstr "Envio Automático de Extrato de Cliente"
 
 #. module: account_statement
 #: model:ir.model.fields,field_description:account_statement.field_account_invoice__result
@@ -200,12 +251,12 @@ msgstr "Saldo"
 #: model:ir.model.fields,field_description:account_statement.field_res_users__monthly_payment_amount_due_amt
 #: model:ir.model.fields,field_description:account_statement.field_res_users__payment_amount_due_amt
 msgid "Balance Due"
-msgstr ""
+msgstr "Saldo Devedor"
 
 #. module: account_statement
 #: selection:monthly.statement.line,state:0
 msgid "Cancelled"
-msgstr ""
+msgstr "Cancelado"
 
 #. module: account_statement
 #: model:ir.model,name:account_statement.model_res_company
@@ -242,13 +293,13 @@ msgstr "Criada em"
 #. module: account_statement
 #: model:ir.model.fields,field_description:account_statement.field_account_invoice__credit_amount
 msgid "Credit/paid"
-msgstr ""
+msgstr "Crédito/Pago"
 
 #. module: account_statement
 #: model:ir.model.fields,field_description:account_statement.field_res_partner__current_date
 #: model:ir.model.fields,field_description:account_statement.field_res_users__current_date
 msgid "Current Date"
-msgstr ""
+msgstr "Data Actual"
 
 #. module: account_statement
 #: model:ir.model.fields,field_description:account_statement.field_monthly_statement_line__partner_id
@@ -259,27 +310,27 @@ msgstr "Cliente"
 #. module: account_statement
 #: model:ir.actions.report,name:account_statement.report_customer_monthly_print
 msgid "Customer Monthly Statement"
-msgstr ""
+msgstr "Extrato Mensal do Cliente"
 
 #. module: account_statement
 #: model:mail.template,report_name:account_statement.email_template_customer_monthly_statement
 msgid "Customer Monthly Statement Report"
-msgstr ""
+msgstr "Relatório Mensal de Extrato do Cliente"
 
 #. module: account_statement
 #: model:ir.actions.report,name:account_statement.report_customer_overdue_print
 msgid "Customer Overdue Statement"
-msgstr ""
+msgstr "Extrato de Atraso do Cliente"
 
 #. module: account_statement
 #: model:ir.actions.report,name:account_statement.report_customert_print
 msgid "Customer Statement"
-msgstr ""
+msgstr "Extrato do Cliente"
 
 #. module: account_statement
 #: model:mail.template,report_name:account_statement.email_template_customer_statement
 msgid "Customer Statement Report"
-msgstr ""
+msgstr "Relatóriod de Extrato de Cliente"
 
 #. module: account_statement
 #: model:ir.model.fields,field_description:account_statement.field_res_partner__balance_invoice_ids
@@ -289,7 +340,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:account_statement.field_res_users__customer_state_ids
 #: model:ir.model.fields,field_description:account_statement.field_res_users__supplier_invoice_ids
 msgid "Customer move lines"
-msgstr ""
+msgstr "Linhas de Movimentação do Cliente"
 
 #. module: account_statement
 #: model_terms:ir.ui.view,arch_db:account_statement.bi_report_overdue_report
@@ -308,7 +359,7 @@ msgstr "Nome a Exibir"
 #. module: account_statement
 #: selection:monthly.statement.line,state:0
 msgid "Draft"
-msgstr ""
+msgstr "Rascunho"
 
 #. module: account_statement
 #: model_terms:ir.ui.view,arch_db:account_statement.bi_report_overdue_report
@@ -330,41 +381,41 @@ msgstr "Id."
 #. module: account_statement
 #: model:ir.model,name:account_statement.model_account_invoice
 msgid "Invoice"
-msgstr "Fatura"
+msgstr "Factura"
 
 #. module: account_statement
 #: model:ir.model.fields,field_description:account_statement.field_monthly_statement_line__date_invoice
 msgid "Invoice Date"
-msgstr "Data da Fatura"
+msgstr "Data da Factura"
 
 #. module: account_statement
 #: model_terms:ir.ui.view,arch_db:account_statement.report_customer_monthly_statement
 #: model_terms:ir.ui.view,arch_db:account_statement.report_customer_statement
 #: model_terms:ir.ui.view,arch_db:account_statement.report_supplier_statement
 msgid "Invoice Number"
-msgstr ""
+msgstr "Número da Factura"
 
 #. module: account_statement
 #: model_terms:ir.ui.view,arch_db:account_statement.view_partner_inherit_followup_form
 msgid "Invoice line"
-msgstr ""
+msgstr "Linha da Factura"
 
 #. module: account_statement
 #: model_terms:ir.ui.view,arch_db:account_statement.report_customer_monthly_statement
 #: model_terms:ir.ui.view,arch_db:account_statement.report_supplier_statement
 msgid "Invoices/Credit"
-msgstr ""
+msgstr "Factura/Crédito"
 
 #. module: account_statement
 #: model_terms:ir.ui.view,arch_db:account_statement.report_customer_statement
 msgid "Invoices/Debit"
-msgstr ""
+msgstr "Factura/Débito"
 
 #. module: account_statement
 #: model:ir.model.fields,field_description:account_statement.field_monthly_statement_line__amount_total
 #: model_terms:ir.ui.view,arch_db:account_statement.view_partner_inherit_followup_form
 msgid "Invoices/Debits"
-msgstr ""
+msgstr "Facturas/Débitos"
 
 #. module: account_statement
 #: model:ir.model.fields,field_description:account_statement.field_monthly_statement_line____last_update
@@ -387,29 +438,29 @@ msgstr "Última Atualização em"
 #. module: account_statement
 #: selection:res.company,period:0
 msgid "Monthly"
-msgstr ""
+msgstr "Mensal"
 
 #. module: account_statement
 #: model_terms:ir.ui.view,arch_db:account_statement.report_customer_monthly_statement
 msgid "Monthly Customer Statement:"
-msgstr ""
+msgstr "Extrato Mesnasl do Cliente"
 
 #. module: account_statement
 #: model:ir.model,name:account_statement.model_monthly_statement_line
 msgid "Monthly Statement Line"
-msgstr ""
+msgstr "Linha de Extrato Mensal"
 
 #. module: account_statement
 #: model:ir.model.fields,field_description:account_statement.field_res_partner__monthly_statement_line_ids
 #: model:ir.model.fields,field_description:account_statement.field_res_users__monthly_statement_line_ids
 msgid "Monthly Statement Lines"
-msgstr ""
+msgstr "Linhas de Extratos Mensal"
 
 #. module: account_statement
 #: model:ir.model.fields,field_description:account_statement.field_res_partner__unreconciled_aml_ids
 #: model:ir.model.fields,field_description:account_statement.field_res_users__unreconciled_aml_ids
 msgid "Move lines"
-msgstr ""
+msgstr "Mover Linhas"
 
 #. module: account_statement
 #: model:ir.model.fields,field_description:account_statement.field_monthly_statement_line__name
@@ -424,7 +475,7 @@ msgstr "Número"
 #. module: account_statement
 #: selection:monthly.statement.line,state:0
 msgid "Open"
-msgstr ""
+msgstr "Aberto"
 
 #. module: account_statement
 #: model_terms:ir.ui.view,arch_db:account_statement.bi_report_overdue_report
@@ -435,40 +486,40 @@ msgstr "Pago"
 #. module: account_statement
 #: model_terms:ir.ui.view,arch_db:account_statement.report_customer_statement
 msgid "Payments/Credit"
-msgstr ""
+msgstr "Pagamentos/Crédito"
 
 #. module: account_statement
 #: model:ir.model.fields,field_description:account_statement.field_monthly_statement_line__credit_amount
 #: model_terms:ir.ui.view,arch_db:account_statement.view_partner_inherit_followup_form
 msgid "Payments/Credits"
-msgstr ""
+msgstr "Pagamentos/Crédito"
 
 #. module: account_statement
 #: model_terms:ir.ui.view,arch_db:account_statement.report_customer_monthly_statement
 #: model_terms:ir.ui.view,arch_db:account_statement.report_supplier_statement
 msgid "Payments/Debit"
-msgstr ""
+msgstr "Pagamentos/Débito"
 
 #. module: account_statement
 #: model:ir.model.fields,field_description:account_statement.field_res_company__period
 #: model:ir.model.fields,field_description:account_statement.field_res_config_settings__period
 msgid "Period"
-msgstr ""
+msgstr "Periódo"
 
 #. module: account_statement
 #: model_terms:ir.ui.view,arch_db:account_statement.view_partner_inherit_followup_form
 msgid "Print Customer Statement"
-msgstr ""
+msgstr "Imprimir Extrato de Cliente"
 
 #. module: account_statement
 #: model_terms:ir.ui.view,arch_db:account_statement.view_partner_inherit_followup_form
 msgid "Print Supplier Statement"
-msgstr ""
+msgstr "Imprimir Extrato de Fornecedor"
 
 #. module: account_statement
 #: model_terms:ir.ui.view,arch_db:account_statement.view_partner_inherit_followup_form
 msgid "Print overdue payments report independent of follow-up line"
-msgstr ""
+msgstr "Imprimir relatório de pagamentos atrasados independente da linha de acompanhamento"
 
 #. module: account_statement
 #: selection:monthly.statement.line,state:0
@@ -485,29 +536,29 @@ msgstr ""
 #. module: account_statement
 #: model_terms:ir.ui.view,arch_db:account_statement.bi_report_overdue_report
 msgid "Reference number"
-msgstr ""
+msgstr "Número de referência"
 
 #. module: account_statement
 #: model:ir.model.fields,field_description:account_statement.field_res_company__send_statement
 #: model:ir.model.fields,field_description:account_statement.field_res_config_settings__send_statement
 #: model_terms:ir.ui.view,arch_db:account_statement.view_partner_inherit_followup_form
 msgid "Send Customer Statement"
-msgstr ""
+msgstr "Enviar Extrato de Cliente"
 
 #. module: account_statement
 #: model_terms:ir.ui.view,arch_db:account_statement.view_partner_inherit_followup_form
 msgid "Send Supplier Statement"
-msgstr ""
+msgstr "Enviar Extrato de Fornecedor"
 
 #. module: account_statement
 #: model:ir.model.fields,field_description:account_statement.field_res_config_settings__statement_days
 msgid "Statement Date"
-msgstr ""
+msgstr "Data do Extrato"
 
 #. module: account_statement
 #: model:ir.model.fields,field_description:account_statement.field_res_company__statement_days
 msgid "Statement Send Date"
-msgstr ""
+msgstr "Data de Envio do Extrato"
 
 #. module: account_statement
 #: model_terms:ir.ui.view,arch_db:account_statement.view_partner_inherit_followup_form
@@ -523,22 +574,22 @@ msgstr "Estado"
 #: model:ir.model.fields,field_description:account_statement.field_res_partner__payment_amount_due_amt_supplier
 #: model:ir.model.fields,field_description:account_statement.field_res_users__payment_amount_due_amt_supplier
 msgid "Supplier Balance Due"
-msgstr ""
+msgstr "Saldo Devedor do Fornecedor"
 
 #. module: account_statement
 #: model_terms:ir.ui.view,arch_db:account_statement.view_partner_inherit_followup_form
 msgid "Supplier Invoice line"
-msgstr ""
+msgstr "Linha de Factura do Fornecedor"
 
 #. module: account_statement
 #: model:ir.actions.report,name:account_statement.report_supplier_print
 msgid "Supplier Statement"
-msgstr ""
+msgstr "Extrato de Fornecedor"
 
 #. module: account_statement
 #: model:mail.template,report_name:account_statement.email_template_supplier_statement
 msgid "Supplier Statement Report"
-msgstr ""
+msgstr "Relatório do Extrato de Cliente"
 
 #. module: account_statement
 #: model:ir.model.fields,field_description:account_statement.field_res_partner__total
@@ -554,13 +605,13 @@ msgstr ""
 #: model:ir.model.fields,field_description:account_statement.field_res_users__monthly_payment_amount_overdue_amt
 #: model:ir.model.fields,field_description:account_statement.field_res_users__payment_amount_overdue_amt
 msgid "Total Overdue Amount"
-msgstr ""
+msgstr "Valor Total em Atraso"
 
 #. module: account_statement
 #: model:ir.model.fields,field_description:account_statement.field_res_partner__payment_amount_overdue_amt_supplier
 #: model:ir.model.fields,field_description:account_statement.field_res_users__payment_amount_overdue_amt_supplier
 msgid "Total Supplier Overdue Amount"
-msgstr ""
+msgstr "Total em Atraso dos Fornecedores"
 
 #. module: account_statement
 #: model:ir.model,name:account_statement.model_statement_days
