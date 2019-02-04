@@ -225,7 +225,7 @@ msgstr "% desconto"
 #: code:addons/flexibite_com_advance/static/src/xml/receipt.xml:8
 #, python-format
 msgid "&nbsp; Change:"
-msgstr "&nbsp; Alterar:"
+msgstr "&nbsp; Troco:"
 
 #. module: flexibite_com_advance
 #. openerp-web
@@ -558,7 +558,7 @@ msgstr "Adicionar Valor de Crédito"
 #: code:addons/flexibite_com_advance/static/src/xml/popup.xml:2026
 #, python-format
 msgid "Add Money"
-msgstr "Adicionar Dinheiro"
+msgstr "Ad. Dinheiro"
 
 #. module: flexibite_com_advance
 #. openerp-web
@@ -4716,7 +4716,7 @@ msgstr "Modeificadores"
 #: code:addons/flexibite_com_advance/static/src/xml/product.xml:216
 #, python-format
 msgid "Money In"
-msgstr "Entrada de Dinheiro"
+msgstr "Entradas"
 
 #. module: flexibite_com_advance
 #: model:ir.model.fields,field_description:flexibite_com_advance.field_pos_config__money_in_out
@@ -4734,7 +4734,7 @@ msgstr "Recibo de Entrada/Saída de Dinheiro"
 #: code:addons/flexibite_com_advance/static/src/xml/product.xml:220
 #, python-format
 msgid "Money Out"
-msgstr "Saída de Dinheiro"
+msgstr "Saídas"
 
 #. module: flexibite_com_advance
 #. openerp-web
@@ -6689,7 +6689,7 @@ msgstr "Aviso de Compra"
 #: code:addons/flexibite_com_advance/static/src/xml/product.xml:214
 #, python-format
 msgid "Put Money In"
-msgstr "Entrada de Dinheiro"
+msgstr "Entradas"
 
 #. module: flexibite_com_advance
 #: model_terms:ir.ui.view,arch_db:flexibite_com_advance.aspl_pos_config_view_form
@@ -8324,7 +8324,7 @@ msgstr ""
 #: code:addons/flexibite_com_advance/static/src/xml/product.xml:218
 #, python-format
 msgid "Take Money Out"
-msgstr "Tirar Dinheiro"
+msgstr "Saídas"
 
 #. module: flexibite_com_advance
 #. openerp-web
@@ -8690,14 +8690,14 @@ msgstr "Hoje"
 #: code:addons/flexibite_com_advance/static/src/xml/backend_dashboard.xml:44
 #, python-format
 msgid "Today Orders"
-msgstr "Ordens do Dia"
+msgstr "Pedidos do Dia"
 
 #. module: flexibite_com_advance
 #. openerp-web
 #: code:addons/flexibite_com_advance/static/src/xml/backend_dashboard.xml:66
 #, python-format
 msgid "Today Product Sold"
-msgstr "Productos Vendidos do Dia"
+msgstr "Prod. Vend. do Dia"
 
 #. module: flexibite_com_advance
 #. openerp-web
@@ -8949,7 +8949,7 @@ msgstr "Total de Pontos:"
 #: code:addons/flexibite_com_advance/static/src/xml/backend_dashboard.xml:101
 #, python-format
 msgid "Total Products Sold"
-msgstr "Total de Productos Vendidos"
+msgstr "Total Prd. Vendidos"
 
 #. module: flexibite_com_advance
 #. openerp-web
