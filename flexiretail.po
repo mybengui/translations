@@ -467,7 +467,7 @@ msgstr "% de desconto"
 #: code:addons/flexiretail_com_advance/static/src/xml/receipt.xml:8
 #, python-format
 msgid "&nbsp; Change:"
-msgstr "&nbsp; Alterar:"
+msgstr "&nbsp; Troco:"
 
 #. module: flexiretail_com_advance
 #. openerp-web
@@ -542,9 +542,9 @@ msgstr "------------------------------------- Fim do relatório ----------------
 #: code:addons/flexiretail_com_advance/static/src/xml/popup.xml:1365
 #, python-format
 msgid ".\n"
-"	                        Are you sure you want to lock pos screen?"
+"	                        Are you sure you want to lock pos screen ?"
 msgstr ".\n"
-"	                        Tem certeza de que deseja bloquear a tela pos?"
+"	                        Tem certeza de que deseja bloquear a tela pos ?"
 
 #. module: flexiretail_com_advance
 #. openerp-web
@@ -1073,7 +1073,7 @@ msgstr "Permitir Margem de Artigo"
 #. module: flexiretail_com_advance
 #: model:ir.model.fields,field_description:flexiretail_com_advance.field_pos_config__allow_reservation_with_no_amount
 msgid "Allow Reservation With 0 Amount"
-msgstr "Permitir reserva com valor 0"
+msgstr "Permitir Reserva com Valor 0"
 
 #. module: flexiretail_com_advance
 #: model:ir.model.fields,field_description:flexiretail_com_advance.field_res_users__store_ids
@@ -1120,7 +1120,7 @@ msgstr "Permite trabalhar num ambiente de várias moedas"
 #. module: flexiretail_com_advance
 #: model:ir.model.fields,help:flexiretail_com_advance.field_loyalty_config_settings__group_proforma_sales
 msgid "Allows you to send pro-forma invoice."
-msgstr "Permite-lhe enviar faturas pró-forma."
+msgstr "Permite-lhe enviar facturas pró-forma."
 
 #. module: flexiretail_com_advance
 #. openerp-web
@@ -1255,8 +1255,8 @@ msgstr "Abril"
 #. openerp-web
 #: code:addons/flexiretail_com_advance/static/src/xml/popup.xml:773
 #, python-format
-msgid "Are You sure want to remove delivery process?"
-msgstr "Tem certeza de que deseja remover o processo de entrega?"
+msgid "Are You sure want to remove delivery process ?"
+msgstr "Tem certeza de que deseja remover o processo de entrega ?"
 
 #. module: flexiretail_com_advance
 #. openerp-web
@@ -1358,7 +1358,7 @@ msgstr "Taxas de Câmbio Automáticas"
 #. module: flexiretail_com_advance
 #: model:ir.model.fields,field_description:flexiretail_com_advance.field_loyalty_config_settings__automatic_invoice
 msgid "Automatic Invoice"
-msgstr "Fatura Automática"
+msgstr "Factura Automática"
 
 #. module: flexiretail_com_advance
 #: model_terms:ir.ui.view,arch_db:flexiretail_com_advance.aspl_pos_config_view_form
@@ -1475,7 +1475,7 @@ msgstr "Saldo:"
 #. module: flexiretail_com_advance
 #: model_terms:ir.ui.view,arch_db:flexiretail_com_advance.aspl_pos_config_view_form
 msgid "Bank Card Charges"
-msgstr "Encargos com Cartão Bancário"
+msgstr "Encargos com cartão bancário"
 
 #. module: flexiretail_com_advance
 #: model:ir.model.fields,field_description:flexiretail_com_advance.field_loyalty_config_settings__module_account_yodlee
@@ -1563,7 +1563,7 @@ msgstr ""
 #. module: flexiretail_com_advance
 #: model:ir.model.fields,field_description:flexiretail_com_advance.field_loyalty_config_settings__default_purchase_method
 msgid "Bill Control"
-msgstr "Controlo de Fatura"
+msgstr "Controlo de Factura"
 
 #. module: flexiretail_com_advance
 #: model:ir.model.fields,field_description:flexiretail_com_advance.field_product_expiry_config__block_color
@@ -1736,7 +1736,7 @@ msgstr "Cancelar pedido"
 #: model:product.product,name:flexiretail_com_advance.product_cancellation
 #: model:product.template,name:flexiretail_com_advance.product_cancellation_product_template
 msgid "Cancellation Charges"
-msgstr "Taxas de cancelamento"
+msgstr "Taxas de Cancelamento"
 
 #. module: flexiretail_com_advance
 #: model:ir.model.fields,field_description:flexiretail_com_advance.field_pos_config__cancellation_charges_product_id
@@ -1746,7 +1746,7 @@ msgstr "Produto de Taxas de Cancelamento"
 #. module: flexiretail_com_advance
 #: model:ir.model.fields,field_description:flexiretail_com_advance.field_pos_config__cancellation_charges_type
 msgid "Cancellation Charges Type"
-msgstr "Tipo de Taxas de cancelamento"
+msgstr "Tipo de Taxas de Cancelamento"
 
 #. module: flexiretail_com_advance
 #. openerp-web
@@ -2632,7 +2632,7 @@ msgstr "Data Atual do Mês"
 #: model:ir.model.fields,field_description:flexiretail_com_advance.field_pos_config__current_session_report
 #: model_terms:ir.ui.view,arch_db:flexiretail_com_advance.aspl_pos_config_view_form
 msgid "Current Session Report"
-msgstr ""
+msgstr "Relatório da Sessão Actual"
 
 #. module: flexiretail_com_advance
 #: model:ir.model.fields,field_description:flexiretail_com_advance.field_pos_config__order_summary_current_month
@@ -2924,7 +2924,7 @@ msgstr "Produto definido por defeito em adiantamentos de pagamentos"
 #. module: flexiretail_com_advance
 #: model_terms:ir.ui.view,arch_db:flexiretail_com_advance.aspl_pos_config_view_form
 msgid "Define Keyboard Shortcuts in Company Settings"
-msgstr "Definir Atalhos de Teclado nas Configurações da Empresa"
+msgstr "Definir atalhos de teclado nas configurações da empresa"
 
 #. module: flexiretail_com_advance
 #: model:ir.model.fields,field_description:flexiretail_com_advance.field_res_users__delete_msg_log
@@ -3110,7 +3110,7 @@ msgstr "Informações de entrega necessárias para validar o pedido!"
 #. module: flexiretail_com_advance
 #: model_terms:ir.ui.view,arch_db:flexiretail_com_advance.aspl_pos_config_view_form
 msgid "Delivery product"
-msgstr "Producto de entrega"
+msgstr "Producto de Entrega"
 
 #. module: flexiretail_com_advance
 #: model_terms:ir.ui.view,arch_db:flexiretail_com_advance.pos_sales_report_pdf_template
@@ -3422,14 +3422,14 @@ msgstr "Exibir Quantidade no Armazém"
 #. module: flexiretail_com_advance
 #: model_terms:ir.ui.view,arch_db:flexiretail_com_advance.aspl_pos_config_view_form
 msgid "Display warehouse wise product quantity"
-msgstr "Mostrar quantidade de produto do armazém "
+msgstr "Mostrar quantidade de produto em armazém "
 
 #. module: flexiretail_com_advance
 #. openerp-web
 #: code:addons/flexiretail_com_advance/static/src/xml/popup.xml:1388
 #, python-format
-msgid "Do you want to close the session?"
-msgstr "Você quer sechar a sessão?"
+msgid "Do you want to close the session ?"
+msgstr "Deseja fechar a sessão ?"
 
 #. module: flexiretail_com_advance
 #. openerp-web
@@ -3440,15 +3440,15 @@ msgstr "Você quer sechar a sessão?"
 #: code:addons/flexiretail_com_advance/static/src/js/screens.js:5785
 #: code:addons/flexiretail_com_advance/static/src/js/screens.js:5801
 #, python-format
-msgid "Do you want to create order as quotation?"
-msgstr "Você quer criar ordem como cotação?"
+msgid "Do you want to create order as quotation ?"
+msgstr "Criar ordem como cotação ?"
 
 #. module: flexiretail_com_advance
 #. openerp-web
 #: code:addons/flexiretail_com_advance/static/src/js/screens.js:1970
 #, python-format
 msgid "Do you want to discard the payment of POS  ?"
-msgstr "Deseja descartar o pagamento do POS"
+msgstr "Deseja descartar o pagamento do POS ?"
 
 #. module: flexiretail_com_advance
 #. openerp-web
@@ -3767,17 +3767,17 @@ msgstr "Ativar redefinição da palavra-passe na página de 'Iniciar Sessão'"
 #. module: flexiretail_com_advance
 #: model_terms:ir.ui.view,arch_db:flexiretail_com_advance.aspl_pos_config_view_form
 msgid "Enable to use Gift Card in POS Interface."
-msgstr "Ativar o Uso de Gift Card na Interface do POS."
+msgstr "Ativar o uso de Gift Card na interface do POS."
 
 #. module: flexiretail_com_advance
 #: model_terms:ir.ui.view,arch_db:flexiretail_com_advance.aspl_pos_config_view_form
 msgid "Enable to use Gift Voucher in POS interface."
-msgstr "Ativar o Uso de Gift Voucher na Interface do POS"
+msgstr "Ativar o uso de Gift Voucher na interface do POS"
 
 #. module: flexiretail_com_advance
 #: model_terms:ir.ui.view,arch_db:flexiretail_com_advance.aspl_pos_config_view_form
 msgid "Enable to use Loyalty Points in Sale Interface."
-msgstr "Ativar o Uso de Pontos de Fidelização na Interface do POS"
+msgstr "Ativar o uso de pontos de fidelização na interface do POS"
 
 #. module: flexiretail_com_advance
 #. openerp-web
@@ -4180,7 +4180,7 @@ msgstr "Da Carteira"
 #. module: flexiretail_com_advance
 #: model_terms:ir.ui.view,arch_db:flexiretail_com_advance.promotion_view_id
 msgid "From(hr)"
-msgstr "De(h)"
+msgstr "Das(horas)"
 
 #. module: flexiretail_com_advance
 #: selection:pos.order,order_status:0
@@ -4633,7 +4633,7 @@ msgstr "Relatório de Inventário (pdf)"
 #: model_terms:ir.ui.view,arch_db:flexiretail_com_advance.promotion_view_id
 #, python-format
 msgid "Invoice"
-msgstr "Fatura"
+msgstr "Factura"
 
 #. module: flexiretail_com_advance
 #. openerp-web
@@ -4653,7 +4653,7 @@ msgstr "Data da Factura"
 #. module: flexiretail_com_advance
 #: model:ir.model.fields,field_description:flexiretail_com_advance.field_loyalty_config_settings__module_account_payment
 msgid "Invoice Online Payment"
-msgstr "Pagamento Online de Fatura"
+msgstr "Pagamento Online de Factura"
 
 #. module: flexiretail_com_advance
 #. openerp-web
@@ -4670,7 +4670,7 @@ msgstr "Facturar o que é entregue"
 #. module: flexiretail_com_advance
 #: selection:loyalty.config.settings,default_invoice_policy:0
 msgid "Invoice what is ordered"
-msgstr "Faturar o que é pedido"
+msgstr "Facturar o que é pedido"
 
 #. module: flexiretail_com_advance
 #. openerp-web
@@ -4682,7 +4682,7 @@ msgstr "Facturado"
 #. module: flexiretail_com_advance
 #: model:ir.model.fields,field_description:flexiretail_com_advance.field_loyalty_config_settings__default_invoice_policy
 msgid "Invoicing Policy"
-msgstr "Política de Faturação"
+msgstr "Política de Facturação"
 
 #. module: flexiretail_com_advance
 #: model:ir.model.fields,field_description:flexiretail_com_advance.field_pos_order__is_debit
@@ -5033,7 +5033,7 @@ msgstr "Lista de Cartão"
 #: model:ir.model.fields,field_description:flexiretail_com_advance.field_res_partner__recharged_ids
 #: model:ir.model.fields,field_description:flexiretail_com_advance.field_res_users__recharged_ids
 msgid "List of recharged card"
-msgstr "Lista de cartão Regarregado"
+msgstr "Lista de Cartão Regarregado"
 
 #. module: flexiretail_com_advance
 #: model:ir.model.fields,field_description:flexiretail_com_advance.field_res_partner__used_ids
@@ -5357,7 +5357,7 @@ msgstr "Número de Cartão Manual"
 #. module: flexiretail_com_advance
 #: model_terms:ir.ui.view,arch_db:flexiretail_com_advance.aspl_pos_config_view_form
 msgid "Manual Lock"
-msgstr "Bloquei Manual"
+msgstr "Bloqueio Manual"
 
 #. module: flexiretail_com_advance
 #: selection:loyalty.config.settings,module_procurement_jit:0
@@ -5531,7 +5531,7 @@ msgstr "Telemóvel:"
 #: code:addons/flexiretail_com_advance/static/src/xml/product.xml:270
 #, python-format
 msgid "Money In"
-msgstr "Entrada de Dinheiro"
+msgstr "Entradas"
 
 #. module: flexiretail_com_advance
 #: model:ir.model.fields,field_description:flexiretail_com_advance.field_pos_config__money_in_out
@@ -5549,7 +5549,7 @@ msgstr "Recibo de Entrada/Saída de Dinheiro"
 #: code:addons/flexiretail_com_advance/static/src/xml/product.xml:274
 #, python-format
 msgid "Money Out"
-msgstr "Saída de Dinheiro"
+msgstr "Saídas"
 
 #. module: flexiretail_com_advance
 #. openerp-web
@@ -5711,7 +5711,7 @@ msgstr "Quase a Expirar"
 #: code:addons/flexiretail_com_advance/static/src/xml/product.xml:1182
 #, python-format
 msgid "Nearly Expire By Category"
-msgstr "Quase a Expirar por Categoria"
+msgstr "Quase a expirar por categoria"
 
 #. module: flexiretail_com_advance
 #. openerp-web
@@ -5719,7 +5719,7 @@ msgstr "Quase a Expirar por Categoria"
 #: code:addons/flexiretail_com_advance/static/src/xml/product.xml:1216
 #, python-format
 msgid "Nearly Expire By Location"
-msgstr "Quase a Expirar por Localização"
+msgstr "Quase a expirar por localização"
 
 #. module: flexiretail_com_advance
 #. openerp-web
@@ -5727,7 +5727,7 @@ msgstr "Quase a Expirar por Localização"
 #: code:addons/flexiretail_com_advance/static/src/xml/product.xml:1036
 #, python-format
 msgid "Nearly Expire By Product"
-msgstr "Quase a Expirar por Producto"
+msgstr "Quase a expirar por producto"
 
 #. module: flexiretail_com_advance
 #. openerp-web
@@ -5735,7 +5735,7 @@ msgstr "Quase a Expirar por Producto"
 #: code:addons/flexiretail_com_advance/static/src/xml/product.xml:1197
 #, python-format
 msgid "Nearly Expire By Warehouse"
-msgstr "Quase a Expirar por Armazém"
+msgstr "Quase a expirar por armazém"
 
 #. module: flexiretail_com_advance
 #. openerp-web
@@ -7314,7 +7314,7 @@ msgstr "Imprimir o último recibo no front-end do POS"
 #. module: flexiretail_com_advance
 #: model:ir.model.fields,field_description:flexiretail_com_advance.field_loyalty_config_settings__group_proforma_sales
 msgid "Pro-Forma Invoice"
-msgstr "Fatura Pró-Forma"
+msgstr "Factura Pró-Forma"
 
 #. module: flexiretail_com_advance
 #. openerp-web
@@ -7659,7 +7659,7 @@ msgstr "Entrada de Dinheiro"
 #. module: flexiretail_com_advance
 #: model_terms:ir.ui.view,arch_db:flexiretail_com_advance.aspl_pos_config_view_form
 msgid "Put money in/ Take money out"
-msgstr "Entrada/Saída de dinheiro"
+msgstr "Registos de entrada/Saída de dinheiro"
 
 #. module: flexiretail_com_advance
 #. openerp-web
@@ -7848,7 +7848,7 @@ msgstr "Ref. Recibo"
 #. module: flexiretail_com_advance
 #: model_terms:ir.ui.view,arch_db:flexiretail_com_advance.aspl_pos_config_view_form
 msgid "Receipt for money in/out"
-msgstr "Recibo para entrada/saída de dinheiro"
+msgstr "Recibo Para Entrada/Saída de Dinheiro"
 
 #. module: flexiretail_com_advance
 #. openerp-web
@@ -7896,7 +7896,7 @@ msgstr "Linha da Recarga"
 #. module: flexiretail_com_advance
 #: model:ir.ui.menu,name:flexiretail_com_advance.aspl_gift_card_recharged_details
 msgid "Recharged Card"
-msgstr ""
+msgstr "Cartão Recarregado"
 
 #. module: flexiretail_com_advance
 #: model_terms:ir.ui.view,arch_db:flexiretail_com_advance.aspl_view_customer_form
@@ -8492,7 +8492,7 @@ msgstr "Preço de Venda"
 #. module: flexiretail_com_advance
 #: model:ir.model.fields,field_description:flexiretail_com_advance.field_pos_config__sale_order_operations
 msgid "Sale order operation"
-msgstr "Operação de ordem de venda"
+msgstr "Operação de Ordem de Venda"
 
 #. module: flexiretail_com_advance
 #: model_terms:ir.ui.view,arch_db:flexiretail_com_advance.front_sales_report_pdf_document
@@ -8896,7 +8896,7 @@ msgstr "Enviar pelo Correio"
 #. module: flexiretail_com_advance
 #: model_terms:ir.ui.view,arch_db:flexiretail_com_advance.aspl_pos_config_view_form
 msgid "Send receipt via mail to customer"
-msgstr "Enviar Recibo de Cliente por Email"
+msgstr "Enviar recibo de cliente por email"
 
 #. module: flexiretail_com_advance
 #. openerp-web
@@ -9355,7 +9355,7 @@ msgstr "Localização de Stock"
 #: model_terms:ir.ui.view,arch_db:flexiretail_com_advance.aspl_pos_config_view_form
 #, python-format
 msgid "Stock Transfer"
-msgstr "Transferência de Estoque"
+msgstr "Permitir transferências de tstoque"
 
 #. module: flexiretail_com_advance
 #. openerp-web
@@ -9479,7 +9479,7 @@ msgstr "Trocar"
 #: code:addons/flexiretail_com_advance/static/src/xml/popup.xml:2502
 #, python-format
 msgid "System have to make delivery order done before creating invoice due to following products of you cart."
-msgstr "O sistema tem que fazer a ordem de entrega antes de criar a fatura, devido aos seguintes produtos do seu carrinho."
+msgstr "O sistema tem que fazer a ordem de entrega antes de criar a factura, devido aos seguintes produtos do seu carrinho."
 
 #. module: flexiretail_com_advance
 #. openerp-web
@@ -9607,9 +9607,9 @@ msgstr ""
 msgid "The invoice is generated automatically and available in the customer portal when the transaction is confirmed by the payment acquirer.\n"
 "The invoice is marked as paid and the payment is registered in the payment journal defined in the configuration of the payment acquirer.\n"
 "This mode is advised if you issue the final invoice at the order and not after the delivery."
-msgstr "A fatura é gerada automaticamente e está disponível no portal do cliente quando a transação é confirmada pelo adquirente do pagamento.\n "
-"A fatura é marcada como paga e o pagamento é registrado no diário de pagamento definido na configuração do adquirente de pagamento.\n"
-"Este modo é aconselhado se você emitir a fatura no final no pedido e não após a entrega."
+msgstr "A factura é gerada automaticamente e está disponível no portal do cliente quando a transação é confirmada pelo adquirente do pagamento.\n "
+"A factura é marcada como paga e o pagamento é registrado no diário de pagamento definido na configuração do adquirente de pagamento.\n"
+"Este modo é aconselhado se você emitir a factura no final no pedido e não após a entrega."
 
 #. module: flexiretail_com_advance
 #. openerp-web
@@ -9824,12 +9824,12 @@ msgstr "Gorjeta"
 #. module: flexiretail_com_advance
 #: model:ir.model.fields,field_description:flexiretail_com_advance.field_pos_promotion__to_date
 msgid "To"
-msgstr "Para"
+msgstr "Até"
 
 #. module: flexiretail_com_advance
 #: model:ir.model.fields,field_description:flexiretail_com_advance.field_loyalty_config_settings__to_amount
 msgid "To Amount"
-msgstr "A Quantia"
+msgstr "Para o Valor de"
 
 #. module: flexiretail_com_advance
 #. openerp-web
@@ -9848,7 +9848,7 @@ msgstr "A Hora"
 #. module: flexiretail_com_advance
 #: model_terms:ir.ui.view,arch_db:flexiretail_com_advance.promotion_view_id
 msgid "To(hr)"
-msgstr "A(h)"
+msgstr "Às(horas)"
 
 #. module: flexiretail_com_advance
 #. openerp-web
@@ -9864,7 +9864,7 @@ msgstr "Hoje"
 #: code:addons/flexiretail_com_advance/static/src/xml/product.xml:1023
 #, python-format
 msgid "Today Expire Product"
-msgstr "Productos que Expiram Hoje"
+msgstr "Productos a expiram hoje"
 
 #. module: flexiretail_com_advance
 #. openerp-web
@@ -10827,7 +10827,7 @@ msgstr "Advertências para estoque"
 #. module: flexiretail_com_advance
 #: model:ir.model.fields,field_description:flexiretail_com_advance.field_loyalty_config_settings__group_warning_account
 msgid "Warnings in Invoices"
-msgstr "Avisos nas Faturas"
+msgstr "Avisos nas Facturas"
 
 #. module: flexiretail_com_advance
 #: model:ir.model.fields,field_description:flexiretail_com_advance.field_pos_store__website
@@ -11173,8 +11173,8 @@ msgstr "desconto"
 
 #. module: flexiretail_com_advance
 #: model_terms:ir.ui.view,arch_db:flexiretail_com_advance.aspl_pos_config_view_form
-msgid "enable, if add products in cart by scanner, then only numpad will not work with the shortcut key"
-msgstr ""
+msgid "Enable, if add products in cart by scanner, then only numpad will not work with the shortcut key"
+msgstr "Abilitado, Se adicona productos no carrinho com o scanner, o teclado numérico não vai funcionar com as teclas de atalho"
 
 #. module: flexiretail_com_advance
 #: code:addons/flexiretail_com_advance/models/point_of_sale.py:953
@@ -11185,7 +11185,7 @@ msgstr "erro!"
 #. module: flexiretail_com_advance
 #: model_terms:ir.ui.view,arch_db:flexiretail_com_advance.aspl_pos_config_view_form
 msgid "expire_deshboard"
-msgstr ""
+msgstr "Painel de Expiração"
 
 #. module: flexiretail_com_advance
 #. openerp-web
@@ -11262,7 +11262,7 @@ msgstr "percentagem"
 #. module: flexiretail_com_advance
 #: model_terms:ir.ui.view,arch_db:flexiretail_com_advance.aspl_pos_config_view_form
 msgid "product Summary"
-msgstr "resumo do producto"
+msgstr "Apresentar resumo do producto"
 
 #. module: flexiretail_com_advance
 #: model:ir.model,name:flexiretail_com_advance.model_product_expiry_config
@@ -11334,7 +11334,7 @@ msgstr "Província"
 #. module: flexiretail_com_advance
 #: model_terms:ir.ui.view,arch_db:flexiretail_com_advance.aspl_pos_config_view_form
 msgid "validate On Click"
-msgstr "validar no clique"
+msgstr "Validar no clique"
 
 #. module: flexiretail_com_advance
 #. openerp-web
